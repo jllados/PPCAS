@@ -6,7 +6,7 @@ Prerequisites
 --------------
 PPCAS compilation requires the following tools installed on your system ``make`` and ``gcc-c++``.
 
-The execution requires a ``Hadoop`` and ``Spark`` infraestructure with the environment variables correctly set and its ``path``. Also a ``Python`` installation.
+The execution requires a ``Hadoop`` and ``Spark`` infraestructure with the environment variables correctly set and its ``path``. Also a ``Python`` installation is needed.
 
 
 Compile 
