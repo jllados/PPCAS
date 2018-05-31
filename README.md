@@ -58,4 +58,4 @@ Calculate the library with 6 partitions (Faster if the infraestrucutre containts
     
 Calculate the library with 4 partitions and store the result in T-Coffee format. It uses the hdfs://user/user_name to collect the temporary data:
     
-    $ ./run.sh -i BB11001.tfa -m 192.168.101.51 -t - h /user/user_name
+    $ ./run.sh -i BB11001.tfa -m 192.168.101.51 -t -h /user/user_name
