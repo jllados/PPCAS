@@ -6,7 +6,7 @@ Prerequisites
 --------------
 PPCAS compilation requires the following tools installed on your system ``make`` and ``gcc-c++``.
 
-The execution requires a ``Hadoop`` and ``Spark`` infraestructure with the environment variables correctly set and its ``path``. Also a ``Python`` installation with ``Numpy`` is needed.
+The execution requires a ``Hadoop`` and ``Spark`` infrastructure with the environment variables correctly set and its ``path``. Also a ``Python`` installation with ``Numpy`` is needed.
 
 
 Compile 
@@ -33,7 +33,7 @@ Required parameters:
     
 Optional parameters:
 
-    $ -h (hdfs path, default: /user/root)
+    $ -h (HDFS path, default: /user/root)
     $ -o (output, collection of files)
     $ -p (number of partitions, default: number of sequences)
     $ -t (T-Coffee output, single file)
@@ -48,11 +48,11 @@ There are input sequences in the examples folder.
 
 ``ghf13_*`` being  ``*`` the number of sequences obtained from ``HomFam`` dataset.
 
-Calculate the library with 4 partitions (BB11001.tfa containts 4 sequences):
+Calculate the library with 4 partitions (BB11001.tfa contains 4 sequences):
 
     $ ./run.sh -i examples/BB11001.tfa -m 192.168.101.51
     
-Calculate the library with 6 partitions (Faster if the infraestrucutre containts 6 cores or more):  
+Calculate the library with 6 partitions (Faster if the infrastrucutre contains 6 cores or more):  
     
     $ ./run.sh -i examples/BB11001.tfa -m 192.168.101.51 -p 6
     
